@@ -38,7 +38,11 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 #homeHeading {
-  color: black;
+  color: white;
+}
+#blurb {
+  padding-top: 20px;
+  /*margin-bottom: 10px;*/
 }
 
 p {
@@ -148,6 +152,13 @@ aside {
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
+  }
+  #homeHeading {
+    color: black;
+  }
+  #blurb {
+    padding-top: 20px;
+    /*margin-bottom: 20px;*/
   }
 }
 header {
