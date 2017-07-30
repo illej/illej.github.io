@@ -37,6 +37,12 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+#homeHeading {
+  color: black;
+}
+#blurb {
+  padding-top: 3em;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -155,7 +161,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/landscape_01.jpg');
   text-align: center;
   color: white;
 }
@@ -187,7 +193,7 @@ header .header-content .header-content-inner p {
   }
   header .header-content {
     position: absolute;
-    top: 50%;
+    top: 50%; /* EDIT */
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
