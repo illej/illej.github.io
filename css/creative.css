@@ -42,7 +42,48 @@ h6 {
 }
 #blurb {
   padding-top: 20px;
-  /*margin-bottom: 10px;*/
+}
+/* Tooltip container */
+#tooltip {
+    position: relative;
+    display: inline-block;
+}
+/* Tooltip text */
+#tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    /* top tooltip
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -40px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+    /* left tooltip */
+    top: -2px;
+    right: 105%;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+#tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+#tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
 }
 
 p {
